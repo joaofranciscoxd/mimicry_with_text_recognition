@@ -1,5 +1,6 @@
 # mimicry_with_text_recognition
-Um script que grava os movimentos e clicks do mouse e reproduz. Também reconhece o texto de uma área selecionada da tela!
+Um script que grava os movimentos e clicks do mouse e reproduz. 
+(Também reconhece o texto de uma área selecionada da tela!)
 [![Demonstrativo](http://img.youtube.com/vi/UG8zwlNqLok/0.jpg)](http://www.youtube.com/watch?v=UG8zwlNqLok "Demonstrativo")
 
 ## Comandos do script:
