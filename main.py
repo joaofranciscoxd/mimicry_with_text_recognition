@@ -62,7 +62,7 @@ if __name__ == '__main__':
                     screen = np.array(ImageGrab.grab(bbox=(230, 180, 580, 223)))
                     screen = cv2.cvtColor(screen, cv2.COLOR_BGR2RGB)
                     screen_gray = cv2.cvtColor(screen, cv2.COLOR_RGB2GRAY)
-                    (thresh, screen_gray_bin) = cv2.threshold(screen_gray, 55, 255, cv2.THRESH_BINARY)
+                    (thresh, screen_gray_bin) = cv2.threshold(screen_gray, 126, 255, cv2.THRESH_BINARY)
                     cv2.moveWindow("Tela", 920 ,0)
                     cv2.imshow('Tela', screen_gray_bin)
                     cv2.waitKey(1)
